@@ -95,6 +95,7 @@ DB_PORT=
 ### (1) 채용공고 등록
 * 채용공고 등록
 ![wanted_r1](https://github.com/user-attachments/assets/0d4adb4d-bfa8-4216-a369-aafe343afe5b)
+
 * 결과
 ![wanted_r2](https://github.com/user-attachments/assets/ce0a5e2d-23aa-4ad5-a909-67f6a17ff3ab)
 
