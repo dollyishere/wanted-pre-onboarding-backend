@@ -98,10 +98,13 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
+    # connect sqlite3
     # 'default': {
     #     'ENGINE': 'django.db.backends.sqlite3',
     #     'NAME': BASE_DIR / 'db.sqlite3',
     # }
+
+    # connect postgreSQL
     'default' : {
         'ENGINE' : 'django.db.backends.postgresql',
         'NAME' : env("DB_NAME"),
