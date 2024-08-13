@@ -91,7 +91,7 @@ DB_PORT=
 | `GET` | `/resume/` | X | 지원 목록 확인 |
 | `POST` | `/resume/` | X | 지원 신규 등록 |
 
-# 5. 요구사항 확인
+# 5. 요구사항 구현 결과
 ### (1) 채용공고 등록
 * 채용공고 등록  
 ![wanted_r1](https://github.com/user-attachments/assets/0d4adb4d-bfa8-4216-a369-aafe343afe5b)
