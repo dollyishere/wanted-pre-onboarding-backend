@@ -26,6 +26,9 @@ class Company(TimeStampedModel):
 
     def __str__(self):
         return str(self.company_id)
+    
+    class Meta:
+        db_table = 'company'
 
 # CREATE TABLE `User` (
 # 	`USER_ID`	SERIAL	NOT NULL,
@@ -40,6 +43,9 @@ class User(TimeStampedModel):
 
     def __str__(self):
         return str(self.user_id)
+    
+    class Meta:
+        db_table = 'user'
 
 # CREATE TABLE `recruitment` (
 # 	`RECRUITMENT_ID`	SERIAL	NOT NULL,
@@ -67,6 +73,9 @@ class Recruitment(TimeStampedModel):
 
     def __str__(self):
         return str(self.recruitment_id)
+    
+    class Meta:
+        db_table = 'recruitment'
 
 # CREATE TABLE `resume` (
 # 	`RESUME_ID`	SERIAL	NOT NULL,
@@ -95,6 +104,7 @@ class Resume(TimeStampedModel):
         return str(self.resume_id)
     
     class Meta:
+        db_table = "resume"
         constraints = [
             models.UniqueConstraint(fields=['user', 'recruitment'], name='unique_user_recruitment')
         ]
