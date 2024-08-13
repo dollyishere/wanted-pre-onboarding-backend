@@ -93,3 +93,8 @@ class Resume(TimeStampedModel):
 
     def __str__(self):
         return str(self.resume_id)
+    
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(fields=['user', 'recruitment'], name='unique_user_recruitment')
+        ]
