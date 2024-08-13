@@ -70,6 +70,9 @@ DB_PORT=
 # 3. 데이터베이스 모델링(ERD)
 [ERD_CLOUD LINK](https://www.erdcloud.com/d/FNPTxk8JjKRk7Razf)
 
+![image](https://github.com/user-attachments/assets/a24bdd3a-3ba7-4b60-b524-8169af8c45a7)
+
+
 # 4. 각 api 설계
 * 요구된 사항만 정리 (이외는 생략)
 * 모든 api url은 `/api` 를 이미 포함하고 있음(`Base URL: 127.0.0.1:8000/api`)
@@ -90,12 +93,47 @@ DB_PORT=
 
 # 5. 요구사항 확인
 ### (1) 채용공고 등록
+* 채용공고 등록
+![wanted_r1](https://github.com/user-attachments/assets/0d4adb4d-bfa8-4216-a369-aafe343afe5b)
+* 결과
+![wanted_r2](https://github.com/user-attachments/assets/ce0a5e2d-23aa-4ad5-a909-67f6a17ff3ab)
+
 ### (2) 채용공고 수정
+* 채용공고 수정
+![wanted_r3](https://github.com/user-attachments/assets/9d36d93f-7efe-4066-bbf7-182de7f6101b)
+* 결과
+![wanted_r4](https://github.com/user-attachments/assets/3aa6ca27-0c88-401c-8a22-69af43348ab4)
+
 ### (3) 채용공고 삭제
+* 채용공고 삭제
+![wanted_r5](https://github.com/user-attachments/assets/2d4e9ae4-c4f6-4f87-bb7e-0278d5ecd06f)
+* 결과
+![wanted_r6](https://github.com/user-attachments/assets/b4fbd570-409c-43e3-b062-244d93c86623)
+
 ### (4-1) 채용공고 목록 조회
+* 채용공고 목록 조회 결과
+![wanted_r7](https://github.com/user-attachments/assets/8a5f98dc-bd53-4d57-a461-bd02191bfeaa)
+
 ### (4-2) 채용공고 검색 기능
+* 채용공고 검색("원티드" 검색)
+![wanted_r8](https://github.com/user-attachments/assets/e81dcd52-c46a-4158-9526-8af863b9f3b8)
+![wanted_r9](https://github.com/user-attachments/assets/7a068ee5-2dda-4d7e-b7dd-3cab00c9a584)
+
+* 채용공고 검색(검색어 배정 x)
+![wanted_r10](https://github.com/user-attachments/assets/c69ea5c8-b1c1-4db9-bcb9-28fefb5c785a)
+![wanted_r11](https://github.com/user-attachments/assets/87d6ec34-46b8-4654-8f27-3c261835d6f6)
+
 ### (5) 채용공고 상세 페이지 가져오기
+* 채용공고 상세 조회
+![wanted_r12](https://github.com/user-attachments/assets/30ba66b8-4760-4e0a-92ab-46e55b6962d5)
+* 결과
+![wanted_r13](https://github.com/user-attachments/assets/d8c76ea4-8e5f-4be2-98b4-41a7e619fdb7)
+
 ### (6) 채용공고에 지원 
+* 채용공고에 지원
+![wanted_r14](https://github.com/user-attachments/assets/86ae8d08-e9ff-4015-9393-49ef04d561b8)
+* 결과
+![wanted_r15](https://github.com/user-attachments/assets/1f16c367-a5ec-4b75-aa6d-63c42438cc56)
 
 # 99. Commit Convention
 - **커밋 메세지 기본 구조**
