@@ -13,6 +13,7 @@
     * Python 3.12.*
     * Django 5.0.*
     * Django Rest Framwork 3.15.*
+    * PostgreSQL 16.3.*
     * 나머지는 `requirements.txt` 참조
   * 사용 개발 도구
     * Visual Studio Code
