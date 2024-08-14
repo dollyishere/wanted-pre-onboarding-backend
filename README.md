@@ -71,8 +71,7 @@ DB_PORT=
 # 3. 데이터베이스 모델링(ERD)
 [ERD_CLOUD LINK](https://www.erdcloud.com/d/FNPTxk8JjKRk7Razf)
 
-![image](https://github.com/user-attachments/assets/a24bdd3a-3ba7-4b60-b524-8169af8c45a7)
-
+![image](https://github.com/user-attachments/assets/57e116c9-3367-4f88-9d6c-368ea765e0ef)
 
 # 4. 각 api 설계
 * 요구된 사항만 정리 (이외는 생략)
