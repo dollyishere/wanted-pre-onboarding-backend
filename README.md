@@ -45,7 +45,7 @@
     -- 가상환경에 기존 requirements.txt 내역 설치
     pip install -r requirements.txt
 
-    -- django 프로젝트 실행
+    -- (프로젝트 경로로 이동한 뒤) django 프로젝트 실행
     python manage.py runserver
 
     -- 초기 로컬 호스트 주소
